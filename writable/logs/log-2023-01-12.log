@@ -1,0 +1,146 @@
+CRITICAL - 2023-01-12 21:26:11 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-12 22:00:33 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:05 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:06 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:08 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:39 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:40 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:40 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-12 22:01:40 --> Invalid file: layout/template_d_user.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template...')
+#1 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#2 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(20): view('scientist/creat...')
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->create_biodata()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2023-01-12 22:21:29 --> Column 'gender' cannot be null
+CRITICAL - 2023-01-12 22:21:29 --> Column 'gender' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-12 22:25:21 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-01-12 22:25:21 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-12 22:25:35 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-01-12 22:25:35 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(35): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-12 22:42:16 --> Duplicate entry '' for key 'PRIMARY'
+CRITICAL - 2023-01-12 22:42:16 --> Duplicate entry '' for key 'PRIMARY'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->save_univ()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

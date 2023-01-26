@@ -1,0 +1,75 @@
+CRITICAL - 2023-01-18 08:06:54 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-18 21:00:24 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-18 21:00:36 --> Cannot use empty array elements in arrays
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-01-18 21:17:36 --> Undefined property: stdClass::$kk
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('26')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-18 21:18:30 --> Undefined property: stdClass::$catatan
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-18 21:18:49 --> Undefined property: stdClass::$catatan
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-18 21:19:45 --> Undefined property: stdClass::$catatan
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-18 21:19:49 --> Undefined property: stdClass::$catatan
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-18 21:20:12 --> Undefined property: stdClass::$catatan
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

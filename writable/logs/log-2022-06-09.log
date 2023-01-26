@@ -1,0 +1,234 @@
+CRITICAL - 2022-06-09 01:36:10 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:38:47 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:38:48 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:38:49 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:41:37 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:41:38 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:41:39 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:41:39 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:41:39 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:42:21 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:21 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:22 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:23 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:24 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:24 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:48:39 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:50:16 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:55:55 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:55:56 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 01:55:56 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:01:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:01:58 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:01:59 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:03:21 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:03:22 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:03:42 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:03:43 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:03:43 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:06:40 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:08:14 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->index()
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#2 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-09 02:58:39 --> There is no data to update.
+#0 C:\xampp\htdocs\ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\ci\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\ci\app\Controllers\Mha.php(48): CodeIgniter\Model->update('1')
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->edit('1')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 03:02:03 --> There is no data to update.
+#0 C:\xampp\htdocs\ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\ci\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\ci\app\Controllers\Mha.php(51): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->edit('1')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-09 03:24:01 --> There is no data to update.
+#0 C:\xampp\htdocs\ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\ci\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\ci\app\Controllers\Mha.php(51): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\ci\system\CodeIgniter.php(832): App\Controllers\Mha->edit('9')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mha))
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

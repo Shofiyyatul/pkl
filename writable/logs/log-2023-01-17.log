@@ -1,0 +1,10 @@
+CRITICAL - 2023-01-17 00:27:10 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

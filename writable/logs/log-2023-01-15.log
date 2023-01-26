@@ -1,0 +1,299 @@
+ERROR - 2023-01-15 06:31:20 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2023-01-15 06:31:20 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\pkl\app\Controllers\Validate.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-01-15 06:36:20 --> Undefined property: stdClass::$password
+#0 C:\xampp\htdocs\pkl\app\Controllers\Validate.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-15 07:20:30 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\scientist\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): view('scientist/creat...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 07:27:37 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\scientist\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): view('scientist/creat...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 08:08:28 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-15 08:08:33 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-15 08:10:46 --> Undefined property: App\Controllers\Register::$mha
+#0 C:\xampp\htdocs\pkl\app\Controllers\Register.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Register->save()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-15 09:29:23 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\user\index.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\User.php(17): view('user/index', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 09:29:54 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-15 10:31:57 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\pkl\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-15 10:31:57 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\pkl\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-15 10:57:26 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\duasarjana\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('duasarjana/crea...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form2.php(16): view('duasarjana/crea...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form2->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form2))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 10:57:38 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\duasarjana\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('duasarjana/crea...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form2.php(16): view('duasarjana/crea...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form2->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form2))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 10:57:53 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\scientist\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): view('scientist/creat...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 10:58:09 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\tugasakhir\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('tugasakhir/crea...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form3.php(15): view('tugasakhir/crea...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form3->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form3))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-15 21:27:27 --> Undefined variable $scientist
+#0 C:\xampp\htdocs\pkl\app\Views\scientist\create_univ.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('scientist/creat...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): view('scientist/creat...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->create_univ()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-01-15 21:59:10 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 21:59:10 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 21:59:25 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 21:59:25 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 21:59:39 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 21:59:39 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:01:20 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 22:01:20 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:01:25 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 22:01:25 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:03:24 --> Column 'nik' cannot be null
+CRITICAL - 2023-01-15 22:03:24 --> Column 'nik' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(54): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:10:25 --> Column 'foto' cannot be null
+CRITICAL - 2023-01-15 22:10:25 --> Column 'foto' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:10:40 --> Column 'foto' cannot be null
+CRITICAL - 2023-01-15 22:10:40 --> Column 'foto' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-15 22:12:02 --> Column 'foto' cannot be null
+CRITICAL - 2023-01-15 22:12:02 --> Column 'foto' cannot be null
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(56): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-15 22:31:25 --> Invalid file: user2/index.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user2/index.php')
+#1 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('user2/index', Array, true)
+#2 C:\xampp\htdocs\pkl\app\Controllers\User2.php(17): view('user2/index', Array)
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User2->index()
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User2))
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-01-15 22:35:04 --> Invalid file: user2/index.php
+#0 C:\xampp\htdocs\pkl\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user2/index.php')
+#1 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('user2/index', Array, true)
+#2 C:\xampp\htdocs\pkl\app\Controllers\User2.php(17): view('user2/index', Array)
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User2->index()
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User2))
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

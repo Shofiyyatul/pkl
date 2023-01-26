@@ -1,0 +1,351 @@
+CRITICAL - 2023-01-16 00:21:05 --> Too few arguments to function App\Controllers\Scientist::detail(), 0 passed in C:\xampp\htdocs\pkl\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-16 00:22:16 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 06:47:04 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 06:53:09 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 06:53:10 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 06:53:13 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 06:53:54 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:02:49 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:04:00 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:04:15 --> Attempt to read property "nik" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 136)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:15:42 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('2')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:24:17 --> Undefined property: App\Controllers\Scientist::$ScientistModel
+#0 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 07:29:37 --> Attempt to read property "nama" on string
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:31:02 --> Undefined variable $row
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 07:32:47 --> Undefined variable $title
+#0 C:\xampp\htdocs\pkl\app\Views\layout\template_d_admin.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\View\View.php(226): CodeIgniter\View\View->render('layout/template...', Array, true)
+#4 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#5 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(28): view('detailadmin/ind...', Array)
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-16 07:44:36 --> Undefined property: stdClass::$ukt
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\TugasAkhir.php(21): view('admin/index', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Tugasakhir->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugasakhir))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 08:35:14 --> Undefined property: stdClass::$id_daftar
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 61)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\TugasAkhir.php(21): view('admin/index', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Tugasakhir->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugasakhir))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 08:37:42 --> Undefined variable $duasarjana
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index2.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index2', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\DuaSarjana.php(21): view('admin/index2', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Duasarjana->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Duasarjana))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 08:37:52 --> Undefined variable $tugasakhir
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index3.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index3', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\TugasAkhir.php(21): view('admin/index3', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Tugasakhir->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugasakhir))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 08:39:21 --> Undefined property: stdClass::$ukt
+#0 C:\xampp\htdocs\pkl\app\Views\admin\index3.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('admin/index3', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\TugasAkhir.php(21): view('admin/index3', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Tugasakhir->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tugasakhir))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 09:08:15 --> Undefined variable $row
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(259): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 259)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 09:08:30 --> Undefined variable $row
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 264)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 09:27:31 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-16 09:29:43 --> Too few arguments to function App\Controllers\Scientist::detail_proses(), 0 passed in C:\xampp\htdocs\pkl\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-16 09:30:07 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-16 09:32:46 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-16 20:55:52 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-16 20:57:37 --> Attempt to read property "nama" on null
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-16 21:30:48 --> Undefined property: App\Controllers\Validate::$db
+#0 C:\xampp\htdocs\pkl\app\Controllers\Validate.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 21:31:06 --> Undefined property: App\Controllers\Validate::$beasiswa
+#0 C:\xampp\htdocs\pkl\app\Controllers\Validate.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 21:32:04 --> Call to undefined method App\Controllers\Validate::table()
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-16 21:32:16 --> Call to undefined method App\Controllers\Validate::getWhere()
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-16 21:33:09 --> Undefined variable $userModel
+#0 C:\xampp\htdocs\pkl\app\Controllers\Validate.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 21:33:37 --> syntax error, unexpected variable "$userModel", expecting "function" or "const"
+#0 C:\xampp\htdocs\pkl\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Validate/loginA...')
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Validate/loginA...')
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 21:41:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Validate->loginAuth()
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Validate))
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-01-16 21:44:29 --> syntax error, unexpected variable "$verify_pass"
+#0 C:\xampp\htdocs\pkl\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Validate/loginA...')
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Validate/loginA...')
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-01-16 21:44:43 --> syntax error, unexpected variable "$verify_pass"
+#0 C:\xampp\htdocs\pkl\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Validate/loginA...')
+#1 C:\xampp\htdocs\pkl\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Validate/loginA...')
+#2 C:\xampp\htdocs\pkl\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
