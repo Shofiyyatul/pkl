@@ -155,18 +155,6 @@
                 <td><?php echo $row->usia;?></td>  
             </tr>
             <tr>
-                <td width="200px"><p>Jenis Kelamin</p></td>
-                <td>:</td>
-                <td><?php echo $row->gender;?></td>
-                
-            </tr>
-            <tr>
-                <td width="200px"><p>Agama</p></td>
-                <td>:</td>
-                <td><?php echo $row->agama;?></td>
-                
-            </tr>
-            <tr>
                 <td width="200px"><p>Alamat</p></td>
                 <td>:</td>
                 <td><?php echo $row->alamat;?></td>

@@ -190,31 +190,6 @@
             </tr>
             <tr>
                 <td width="200px">
-                    <p>Jenis Kelamin</p>
-                </td>
-                <td>:</td>
-                <td><select required name="jkku">
-                        <option selected disabled align="center"> --- Pilih Gender ---</option>
-                        <option>Laki-Laki</option>
-                        <option>Perempuan</option>
-                    </select></td>
-            </tr>
-            <tr>
-                <td width="200px">
-                    <p>Agama</p>
-                </td>
-                <td>:</td>
-                <td><select required name="agamaku">
-                        <option selected disabled align="center"> --- Pilih Agama ---</option>
-                        <option>Islam</option>
-                        <option>Kristen</option>
-                        <option>Hindu</option>
-                        <option>Budha</option>
-                        <option>Khonghucu</option>
-                    </select></td>
-            </tr>
-            <tr>
-                <td width="200px">
                     <p>Alamat Lengkap (mencakup desa/kelurahan, RT dan RW)</p>
                 </td>
                 <td>:</td>

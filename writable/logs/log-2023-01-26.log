@@ -73,3 +73,127 @@ CRITICAL - 2023-01-26 09:01:32 --> Unknown column 'gender' in 'field list'
 #10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #12 {main}
+ERROR - 2023-01-26 20:47:06 --> Unknown column 'agama' in 'field list'
+CRITICAL - 2023-01-26 20:47:06 --> Unknown column 'agama' in 'field list'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-01-26 20:49:08 --> Unknown column 'email' in 'field list'
+CRITICAL - 2023-01-26 20:49:08 --> Unknown column 'email' in 'field list'
+#0 C:\xampp\htdocs\pkl\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\xampp\htdocs\pkl\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\xampp\htdocs\pkl\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\xampp\htdocs\pkl\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pkl\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pkl\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pkl\app\Controllers\Form.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Form->save()
+#9 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#10 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-01-26 21:20:12 --> Undefined property: stdClass::$gender
+#0 C:\xampp\htdocs\pkl\app\Views\user\index.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 150)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\User.php(17): view('user/index', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-26 21:20:58 --> Undefined property: stdClass::$suketaktifk
+#0 C:\xampp\htdocs\pkl\app\Views\user\index.php(268): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 268)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\User.php(17): view('user/index', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-26 21:24:17 --> Undefined property: stdClass::$ips
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(218): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 218)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('4')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-26 21:24:52 --> Undefined property: stdClass::$suketaktifk
+#0 C:\xampp\htdocs\pkl\app\Views\detailadmin\index.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 260)
+#1 C:\xampp\htdocs\pkl\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pkl\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pkl\system\Common.php(1089): CodeIgniter\View\View->render('detailadmin/ind...', Array, true)
+#4 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(29): view('detailadmin/ind...', Array)
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail('1')
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#7 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-01-26 21:28:57 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-26 21:32:42 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-26 21:35:47 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-26 21:36:00 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-01-26 21:38:40 --> There is no data to update.
+#0 C:\xampp\htdocs\pkl\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\pkl\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\pkl\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\pkl\app\Controllers\Scientist.php(59): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\pkl\system\CodeIgniter.php(832): App\Controllers\Scientist->detail_proses()
+#5 C:\xampp\htdocs\pkl\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Scientist))
+#6 C:\xampp\htdocs\pkl\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pkl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

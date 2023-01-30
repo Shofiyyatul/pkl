@@ -10,8 +10,8 @@ class ScientistModel extends Model
     protected $primaryKey = "id_daftar";
     protected $returnType = "object";
     protected $useAutoIncrement = true;
-    protected $allowedFields = ["nik","nama","nokk", "tempatLahir",	"tanggalLahir",	"gender", "alamat", "agama", "foto",
-    "universitas", "fakultas", "prodi", "semester",	"ipk", "ukt", "jalur", "tahun", "email", "noHP", "nim",
+    protected $allowedFields = ["nik","nama","nokk", "tempatLahir", "alamat",
+    "universitas", "fakultas", "prodi", "semester",	"ipk", "ukt", "jalur","ips1", "ips2","ips3","ips4","ips5","ips6","ips7","ips8","noHP", "nim",
     "kepalakel","ibu","supermohon","suketaktif","kk","ktp","ktm","khs","supertidakbeasiswa","buktiukt","buktijalur","rekening",
     "kelengkapan", "catatan","status"
 ];

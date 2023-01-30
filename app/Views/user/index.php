@@ -145,41 +145,14 @@
                 <td><?php echo $row->tempatLahir;?></td>
             </tr>
             <tr>
-                <td width="200px"><p>Tanggal Lahir</p></td>
-                <td>:</td>
-                <td><?php echo $row->tanggalLahir;?></td>
-            </tr>
-            <tr>
-                <td width="200px"><p>Jenis Kelamin</p></td>
-                <td>:</td>
-                <td><?php echo $row->gender;?></td>
-                
-            </tr>
-            <tr>
-                <td width="200px"><p>Agama</p></td>
-                <td>:</td>
-                <td><?php echo $row->agama;?></td>
-                
-            </tr>
-            <tr>
                 <td width="200px"><p>Alamat</p></td>
                 <td>:</td>
                 <td><?php echo $row->alamat;?></td>
             </tr>
             <tr>
-                <td width="200px"><p>Email</p></td>
-                <td>:</td>
-                <td><?php echo $row->email;?></td>
-            </tr>
-            <tr>
                 <td width="200px"><p>No. Handphone</p></td>
                 <td>:</td>
                 <td><?php echo $row->noHP;?></td>
-            </tr>
-            <tr>
-                <td width="200px"><p>PasFoto (3x4) *pdf </p></td>
-                <td>:</td>
-                <td><?php echo $row->foto;?></td>
             </tr>
         </table>
         <table align="center" width=1100px border="0" cellspacing="0" bgcolor="#F8F8FF">
@@ -218,10 +191,6 @@
                 <td><?php echo $row->nim;?></td>
             </tr>
             <tr>
-            <td width="200px"><p>Tahun Masuk Kuliah</p></td>
-                <td>:</td>
-                <td><?php echo $row->tahun;?></td>
-            </tr>
             <td width="200px"><p>Jalur Masuk Kuliah</p></td>
                 <td>:</td>
                 <td><?php echo $row->jalur;?></td>
@@ -239,9 +208,45 @@
                 <td>:</td>
                 <td><?php echo $row->semester;?></td>
             </tr>
-            <td width="200px"><p>IPK</p></td>
+            <tr>        
+            <td width="200px"><p>IPS Semester 1</p></td>
                 <td>:</td>
-                <td><?php echo $row->ipk;?></td>
+                <td><?php echo $row->ips1;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 2</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips2;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 3</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips3;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 4</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips4;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 5</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips5;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 6</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips6;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 7</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips7;?></td>
+            </tr>
+            <tr>        
+            <td width="200px"><p>IPS Semester 8</p></td>
+                <td>:</td>
+                <td><?php echo $row->ips8;?></td>
             </tr>
             <td width="200px"><p>UKT Sebelumnya</p></td>
                 <td>:</td>
@@ -260,7 +265,7 @@
             <tr>
                 <td width="200px"><p> Surat Keterangan Aktif dari PTN</p></td>
                 <td>:</td>
-                <td><?php echo $row->suketaktifk;?></td>
+                <td><?php echo $row->suketaktif;?></td>
             </tr>
             <tr>
                 <td width="200px"><p> Kartu Keluarga </p></td>

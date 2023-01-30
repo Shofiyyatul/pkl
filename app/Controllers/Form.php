@@ -37,11 +37,7 @@ class Form extends BaseController
             'nama'=> $this->request->getVar('namaku'),
             'nokk'=> $this->request->getVar('nokkku'),
             'tempatLahir'=> $this->request->getVar('tlku'),
-            'tanggalLahir'=> $this->request->getVar('tglku'),
-            'gender'=> $this->request->getVar('jkku'),
             'alamat'=> $this->request->getVar('alamatku'),
-            'agama'=> $this->request->getVar('agamaku'),
-            'email'=> $this->request->getVar('emailku'),
             'noHP'=> $this->request->getVar('hpku'),
             'universitas'=> $this->request->getVar('univku'),
             'nim'=> $this->request->getVar('nimku'),
@@ -49,10 +45,15 @@ class Form extends BaseController
             'prodi'=> $this->request->getVar('prodiku'),
             'semester'=> $this->request->getVar('smsku'),
             'jalur'=> $this->request->getVar('jalurku'),
-            'tahun'=> $this->request->getVar('thnku'),
             'ukt'=> $this->request->getVar('uktku'),
-            'ipk'=> $this->request->getVar('ipkku'),
-            'foto'=> $this->request->getVar('fotoku'),
+            'ips1'=> $this->request->getVar('ips1ku'),
+            'ips2'=> $this->request->getVar('ips2ku'),
+            'ips3'=> $this->request->getVar('ips3ku'),
+            'ips4'=> $this->request->getVar('ips4ku'),
+            'ips5'=> $this->request->getVar('ips5ku'),
+            'ips6'=> $this->request->getVar('ips6ku'),
+            'ips7'=> $this->request->getVar('ips7ku'),
+            'ips8'=> $this->request->getVar('ips8ku'),
             'kepalakel'=> $this->request->getVar('kepalakelku'),
             'ibu'=> $this->request->getVar('ibuku'),
             'supermohon'=> $this->request->getVar('supermohonku'),
@@ -77,12 +78,12 @@ class Form extends BaseController
         return view('scientist/create_univ',$data);
     }
 
-    public function update_univ($id_daftar)
+    public function update($id_daftar)
     {
         $this->scientist->update($id_daftar, [
             
         ]);
-        return redirect()->to('/create_file');
+        return redirect()->to('/detailadmin/index');
     }
 }
 ?>

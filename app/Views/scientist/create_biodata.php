@@ -149,53 +149,15 @@
                 <td><input type="text" placeholder="Tulis hanya nama kabupaten" required name="tlku"></td>
             </tr>
             <tr>
-                <td width="200px"><p>Tanggal Lahir</p></td>
-                <td>:</td>
-                <td><input type="date" placeholder="Tanggal Lahir" required name="tglku"></td>
-            </tr>
-            <tr>
-                <td width="200px"><p>Jenis Kelamin</p></td>
-                <td>:</td>
-                <td><select required name="jkku">
-                    <option selected disabled align="center"> --- Pilih Gender ---</option>
-                    <option>Laki-Laki</option>
-                    <option>Perempuan</option>
-                </select></td>
-                
-            </tr>
-            <tr>
-                <td width="200px"><p>Agama</p></td>
-                <td>:</td>
-                <td><select required name="agamaku">
-                    <option selected disabled align="center"> --- Pilih Agama ---</option>
-                    <option>Islam</option>
-                    <option>Kristen</option>
-                    <option>Hindu</option>
-                    <option>Budha</option>
-                    <option>Khonghucu</option>
-                </select></td>
-                
-            </tr>
-            <tr>
                 <td width="200px"><p>Alamat</p></td>
                 <td>:</td>
                 <td><textarea cols="39" rows="3" placeholder="Tuliskan alamat lengkap "
                 required name="alamatku"></textarea></td>
             </tr>
             <tr>
-                <td width="200px"><p>Email</p></td>
-                <td>:</td>
-                <td><input type="email" placeholder="email" required name="emailku"></td>
-            </tr>
-            <tr>
                 <td width="200px"><p>No. Handphone</p></td>
                 <td>:</td>
                 <td><input type="text" placeholder="contoh : 081234567890" required name="hpku"></td>
-            </tr>
-            <tr>
-                <td width="200px"><p>Pas Foto (3x4)  </p></td>
-                <td>:</td>
-                <td><input type="file" required name="fotoku"></td>
             </tr>
             <tr></tr>
         </table>
@@ -234,11 +196,8 @@
             <td width="200px"><p>NIM</p></td>
                 <td>:</td>
                 <td><input type="text" placeholder="NIM" required name ="nimku"></td>
-            <tr>
-            <td width="200px"><p>Tahun Masuk Kuliah</p></td>
-                <td>:</td>
-                <td><input type="number" placeholder="Tahun Masuk Kuliah" required name ="thnku"></td>
             </tr>
+            <tr>
                 <td width="200px"><p>Jalur Masuk Kuliah</p></td>
                 <td>:</td>
                 <td><input type="text" placeholder="SBMPTN / SNMPTN / SPAN-PTKIN / UM-PTKIN / SNMPN / SBMPN" required name ="jalurku"></td>
@@ -262,10 +221,47 @@
                 <td>:</td>
                 <td><input type="number" placeholder="Semester" required name ="smsku"></td>
             </tr>
-            <td width="200px"><p>IPK</p></td>
+            <tr>
+            <td width="200px"><p>IPS Semester 1</p></td>
                 <td>:</td>
-                <td><input type="text" placeholder="contoh : 3,9" required name ="ipkku"></td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips1ku"></td>
             </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 2</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips2ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 3</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips3ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 4</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips4ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 5</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips5ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 6</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips6ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 7</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips7ku"></td>
+            </tr>
+            <tr>
+            <td width="200px"><p>IPS Semester 8</p></td>
+                <td>:</td>
+                <td><input type="text" placeholder="contoh : 3.03" name ="ips8ku"></td>
+            </tr>
+           <tr>
             <td width="200px"><p>UKT Sebelumnya</p></td>
                 <td>:</td>
                 <td><input type="text" placeholder="contoh : 5.000.000" required name ="uktku"></td>
